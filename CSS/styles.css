@@ -9,6 +9,15 @@ body{
     background: #0b361f;
     justify-content:center;
 }
+.my_info_lkin{
+    font-family: 'Graduate';
+    color: #9febc2;
+    font-size: 180%;
+    margin-top: 3%;
+}
+.my_info_lkin:hover{
+    color: #17422b;
+}
 #row_pic_desc{
     background: #15663b;
 }
@@ -22,6 +31,10 @@ body{
     color: azure;
     font-size: 180%;
     margin-top: 3%;
+}
+#linkedinph{
+    width: 7.5%;
+    height: 15%;
 }
 #about_me{
     background: #257358;
@@ -195,11 +208,17 @@ body{
     #container_all{
         width: 100%;
     }
+    #linkedinph{
+        width: 10%;
+        height: 10%;
+        margin-top: -10%;
+        margin-left: -10%;
+    }
     .col-sm-4{
         width: 40%;
     }
     #photo_me{
-        margin-top: 20%;
+        margin-top: 30%;
         margin-left: -5%;
     }
     .col-sm-8{
@@ -299,7 +318,7 @@ body{
     }
     @media only screen and (max-width: 380px) {
         #photo_me{
-            margin-top: 25%;
+            margin-top: 30%;
         }
         .my_info{
             font-size: 93%;
@@ -307,7 +326,7 @@ body{
         }
         @media only screen and (max-width: 365px) {
             #photo_me{
-                margin-top: 25%;
+                margin-top: 35%;
             }
             .my_info{
                 font-size: 86%;
@@ -319,7 +338,7 @@ body{
                 font-size: 260%;
             }
             #photo_me{
-                margin-top: 25%;
+                margin-top: 45%;
             }
             .my_info{
                 font-size: 75%;
