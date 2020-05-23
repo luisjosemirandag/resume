@@ -1,0 +1,335 @@
+body{
+    background-color: black;
+}
+#container_all{
+    width: 85%;
+    overflow: hidden;
+}
+#row_name{
+    background: #0b361f;
+    justify-content:center;
+}
+#row_pic_desc{
+    background: #15663b;
+}
+#my_name{
+    font-family: 'Satisfy';
+    font-size: 400%;
+    color:azure;
+}
+.my_info{
+    font-family: 'Graduate';
+    color: azure;
+    font-size: 180%;
+    margin-top: 3%;
+}
+#about_me{
+    background: #257358;
+}
+.text_title{
+    font-family: 'Graduate';
+    color: azure;
+    font-size: 180%;
+    margin-left: 2%;
+}
+#about_me_text{
+    font-family: 'Mukta';
+    color: azure;
+    font-size: 150%;
+    margin-left: 2%;
+    text-align: justify;
+    margin-right: 5%;
+}
+#studies{
+    background-color: #4d9b72;
+}
+
+#bullet_text{
+    font-family: 'Mukta';
+    color: azure;
+    font-size: 140%;
+    text-align: left;
+    margin-left: 1%;
+}
+#cursos_text{
+    font-family: 'Mukta';
+    color: azure;
+    font-size: 140%;
+    text-align: left;
+    margin-left: 1%;
+}
+#bullet_text_wk{
+    font-family: 'Mukta';
+    color: azure;
+    font-size: 140%;
+    text-align: left;
+    margin-left: 1%;
+}
+#rocket{
+    margin-right: -5%;
+    margin-left: 2%;
+}
+#ufo{
+    margin-right: -5%;
+    margin-left: 2%;
+}
+#bullet_text_inc_de{
+    font-family: 'Mukta';
+    color: azure;
+    font-size: 110%;
+    text-align: left;
+    margin-top: -1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+#bullet_text_inc_tpa{
+    font-family: 'Mukta';
+    color: azure;
+    font-size: 110%;
+    text-align: left;
+    margin-top: -1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+.skills_toggle{
+    display:inline-block;
+    padding:0.5% 1%;
+    margin-left: 2%;
+    margin-right: -10%;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-size: 75%;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4d9b72;
+    text-align:center;
+    transition: all 0.2s;
+    border:transparent;
+}
+.skills_toggle:hover{
+    background-color:#3a7254;
+}
+#experience{
+    background: #27af67;
+}
+#technologies{
+    background: #15663b;
+}
+#saturn{
+    margin-left: 2%;
+}
+#tecnologies_text{
+    font-family: 'Mukta';
+    color: azure;
+    font-size: 120%;
+    margin-left: 1%;
+    text-align: left;
+    margin-right: -5%;
+    margin-top: -1%;
+    margin-bottom: 1%;
+}
+#idiomas_text{
+    font-family: 'Mukta';
+    color: azure;
+    font-size: 120%;
+    margin-left: 1%;
+    text-align: left;
+    margin-right: -5%;
+    margin-top: -1%;
+    margin-bottom: 1%;
+}
+#projects_ct{
+    background: #257358; 
+}
+#project_row_info{
+    justify-content:center;
+    overflow: hidden;
+}
+#img_prj{
+    width: 75%;
+    height: 100%;
+    background:azure;
+    border:azure;
+    overflow: hidden;
+}
+#link_prj{
+    justify-content:center;
+    text-align: center;
+    overflow: hidden;
+}
+#img_prj:hover{
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+}
+#cursos_ct{
+    background-color: #4d9b72;
+}
+#credential{
+    color: #072917;
+    text-decoration: underline;
+    font-weight: 100;
+}
+#credential:hover{
+    color: #9febc2;
+}
+.credentials_toggle{
+    font-weight: bold;
+    border: transparent;
+    background-color: transparent;
+    font-size: 120%;
+    text-decoration: underline;
+    color: #072917;
+}
+.credentials_toggle:hover{
+    color: #9febc2;
+}
+#idiomas_ct{
+    background: #27af67;   
+}
+
+/* To define in cellphones */
+@media only screen and (max-width: 500px) {
+
+    #container_all{
+        width: 100%;
+    }
+    .col-sm-4{
+        width: 40%;
+    }
+    #photo_me{
+        margin-top: 20%;
+        margin-left: -5%;
+    }
+    .col-sm-8{
+        width: 60%;
+    }
+    #my_name{
+        font-size: 300%;
+    }
+    .my_info{
+        font-size: 100%;
+        margin-left: -10%;
+    }
+    .text_title{
+        font-size: 100%;
+        margin-left: 2%;
+    }
+    #about_me_text{
+        font-size: 80%;
+        margin-left: 2%;
+        margin-right: 3%;
+    }
+    #bullet_text{
+        font-size: 80%;
+        margin-left: 0%;
+    }
+    #bullet_text_wk{
+        font-size: 80%;
+        margin-left: 0%;
+        margin-right: 10%;
+    }
+    #rocket{
+        list-style: url('https://raw.githubusercontent.com/luisjosemirandag/resume/master/images/rocket_png_10.png');
+        margin-left: -5%;
+    }
+    #ufo{
+        list-style: url('https://raw.githubusercontent.com/luisjosemirandag/resume/master/images/ufo_10.png');
+        margin-left: -5%;
+    }
+    #bullet{
+        margin-right: 5%;
+        margin-left: 2%;
+    }
+    #bullet_text_inc_de{
+        font-size: 60%;
+    }
+    #bullet_text_inc_tpa{
+        font-size: 60%;
+    }
+    #alien{
+        list-style: url("https://raw.githubusercontent.com/luisjosemirandag/resume/master/images/rocket_png_5.png");
+        margin-left: -10%;
+        margin-top: -2%;
+        margin-right: 2%;
+    }
+    #saturn{
+        list-style: url("https://raw.githubusercontent.com/luisjosemirandag/resume/master/images/saturn_10.png");
+    }
+    .skills_toggle{
+        display:inline-block;
+        padding:0.5% 1%;
+        margin-left: 2%;
+        margin-right: -10%;
+        border-radius:2em;
+        font-size: 60%;
+        font-weight:300;
+    }
+    #tecnologies_text{
+        font-size: 70%;
+        margin-left: 2%;
+        margin-top: -2.5%;
+        margin-bottom: 1.5%;
+        margin-right: 0%;
+    }
+    #img_prj{
+        width: 75%;
+        height: 100%;
+        overflow: hidden;
+    }
+    #cursos_text{
+        font-size: 70%;
+        margin-right: 5%;
+        margin-top: -1%;
+        margin-bottom: 1%;
+    }
+    #credential{
+        font-weight: 100;
+    }
+    .credentials_toggle{
+        font-size: 70%;
+        margin-left: -8%;
+    }
+    #idiomas_text{
+        font-size: 70%;
+        margin-right: 5%;
+        margin-top: -1%;
+        margin-bottom: 1%;
+    }
+    @media only screen and (max-width: 380px) {
+        #photo_me{
+            margin-top: 25%;
+        }
+        .my_info{
+            font-size: 93%;
+            margin-left: -10%;
+        }
+        @media only screen and (max-width: 365px) {
+            #photo_me{
+                margin-top: 25%;
+            }
+            .my_info{
+                font-size: 86%;
+                margin-left: -10%;
+            }
+        }
+        @media only screen and (max-width: 325px) {
+            #my_name{
+                font-size: 260%;
+            }
+            #photo_me{
+                margin-top: 25%;
+            }
+            .my_info{
+                font-size: 75%;
+                margin-left: -10%;
+            }
+            #bullet_text{
+                font-size: 80%;
+                margin-left: 0%;
+                margin-right: 10%;
+            }
+        }
+    }
+}
