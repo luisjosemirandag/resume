@@ -1,348 +1,428 @@
 body{
-    background-color: black;
+  background-color: #180557;
+  width: 85%;
+  margin-left: 7%;
 }
-#container_all{
-    width: 85%;
-    overflow: hidden;
+/* Container of the title*/
+#title_ct{
+  width: 100%;
+  background-color: #180557;
+  overflow: hidden;
 }
-#row_name{
-    background: #0b361f;
-    justify-content:center;
-}
-.my_info_lkin:hover{
-    color: #17422b;
-}
-#row_pic_desc{
-    background: #15663b;
-}
-#my_name{
-    font-family: 'Satisfy';
-    font-size: 400%;
-    color:azure;
-}
-.my_info{
-    font-family: 'Graduate';
-    color: azure;
-    font-size: 180%;
-    margin-top: 3%;
-}
-#linkedinph{
-    width: 7.5%;
-    height: 15%;
-}
-#about_me{
-    background: #257358;
-}
-.text_title{
-    font-family: 'Graduate';
-    color: azure;
-    font-size: 180%;
-    margin-left: 2%;
-}
-#about_me_text{
-    font-family: 'Mukta';
-    color: azure;
-    font-size: 150%;
-    margin-left: 2%;
-    text-align: justify;
-    margin-right: 5%;
-}
-#studies{
-    background-color: #4d9b72;
+#title_rw{
+  justify-content: center;
 }
 
-#bullet_text{
-    font-family: 'Mukta';
-    color: azure;
-    font-size: 140%;
-    text-align: left;
-    margin-left: 1%;
+/* Title of the page and the animation */
+.title {
+  position: relative;
+  height: 10%;
+  color: transparent;
+  font-family: 'Staatliches', cursive;
+  font-size: 700%;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  overflow: hidden;
+  text-transform: uppercase;
 }
-#cursos_text{
-    font-family: 'Mukta';
-    color: azure;
-    font-size: 140%;
-    text-align: left;
-    margin-left: 1%;
+
+.title > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
 }
-#bullet_text_wk{
-    font-family: 'Mukta';
-    color: azure;
-    font-size: 140%;
-    text-align: left;
-    margin-left: 1%;
+
+.title > div:nth-child(1) {
+  -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+  mask-image: linear-gradient(black 25%, transparent 25%);
+  color: #f54355;
+  animation: title1 5s infinite;
 }
-#rocket{
-    margin-right: -5%;
-    margin-left: 2%;
+
+.title > div:nth-child(2) {
+  -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 35%, transparent 35%);
+  mask-image: linear-gradient(transparent 25%, black 25%, black 35%, transparent 35%);
+  color: #faaf4d;
+  animation: title2 5s infinite;
 }
-#ufo{
-    margin-right: -5%;
-    margin-left: 2%;
+
+.title > div:nth-child(3) {
+   -webkit-mask-image: linear-gradient(transparent 35%, black 35%, black 45%, transparent 45%);
+  mask-image: linear-gradient(transparent 35%, black 35%, black 45%, transparent 45%);
+  color: #f1f16d;
+  animation: title3 5s infinite;
 }
-#bullet_text_inc_de{
-    font-family: 'Mukta';
-    color: azure;
-    font-size: 110%;
-    text-align: left;
-    margin-top: -1%;
-    margin-bottom: 1%;
-    margin-left: 1%;
+
+.title > div:nth-child(4) {
+   -webkit-mask-image: linear-gradient(transparent 45%, black 45%,black 55%, transparent 55%);
+  mask-image: linear-gradient(transparent 45%, black 45%,black 55%, transparent 55%);
+  color: #39cf89;
+  animation: title4 5s infinite;
 }
-#bullet_text_inc_tpa{
-    font-family: 'Mukta';
-    color: azure;
-    font-size: 110%;
-    text-align: left;
-    margin-top: -1%;
-    margin-bottom: 1%;
-    margin-left: 1%;
+
+.title > div:nth-child(5) {
+  -webkit-mask-image: linear-gradient(transparent 55%, black 55%,black 65%, transparent 65%);
+ mask-image: linear-gradient(transparent 55%, black 55%,black 65%, transparent 65%);
+ color:#3e9fee;
+ animation: title5 5s infinite;
 }
-.skills_toggle{
-    display:inline-block;
-    padding:0.5% 1%;
-    margin-left: 2%;
-    margin-right: -10%;
-    border-radius:2em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-size: 75%;
-    font-weight:300;
-    color:#FFFFFF;
-    background-color:#4d9b72;
-    text-align:center;
-    transition: all 0.2s;
-    border:transparent;
+
+.title > div:nth-child(6) {
+  -webkit-mask-image: linear-gradient(transparent 65%, black 65%);
+ mask-image: linear-gradient(transparent 65%, black 65%);
+ color: #995a95;
+ animation: title6 5s infinite;
 }
-.skills_toggle:hover{
-    background-color:#3a7254;
+@keyframes title1 {
+  0% {
+      transform: translateY(-100%);
+    }
+    26% {
+      transform: translateY(0%);
+    }
+    83% {
+      transform: translateY(0.1%);
+    }
+    100% {
+      transform: translateY(-120%);
+    }
 }
-#experience{
-    background: #27af67;
+@keyframes title2 {
+  0% {
+    transform: translateY(-100%);
+  }
+  24% {
+    transform: translateY(0%);
+  }
+  82% {
+    transform: translateY(0.1%);
+  }
+  100% {
+    transform: translateY(-120%);
+  }
 }
-#technologies{
-    background: #15663b;
+@keyframes title3 {
+  0% {
+    transform: translateY(-100%);
+  }
+  22% {
+    transform: translateY(0%);
+  }
+  81% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-120%);
+  }
 }
-#saturn{
-    margin-left: 2%;
+@keyframes title4 {
+  0% {
+    transform: translateY(100%);
+  }
+  20% {
+    transform: translateY(0%);
+  }
+  80% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(135%);
+  }
+}   
+@keyframes title5 {
+  0% {
+    transform: translateY(100%);
+  }
+  20% {
+    transform: translateY(0%);
+  }
+  80% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(135%);
+  }
 }
-#tecnologies_text{
-    font-family: 'Mukta';
-    color: azure;
-    font-size: 120%;
-    margin-left: 1%;
-    text-align: left;
-    margin-right: -5%;
-    margin-top: -1%;
-    margin-bottom: 1%;
+@keyframes title6 {
+  0% {
+    transform: translateY(100%);
+  }
+  20% {
+    transform: translateY(0%);
+  }
+  80% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(135%);
+  }
 }
-#idiomas_text{
-    font-family: 'Mukta';
-    color: azure;
-    font-size: 140%;
-    margin-left: 1%;
-    text-align: left;
-    margin-right: -5%;
-    margin-top: -1%;
-    margin-bottom: 1%;
+
+/* Title of the Timeline */
+#mg_timeline{
+  margin-top: 1%;
+  font-size: 200%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: azure;
+  font-family: 'Staatliches', cursive;
 }
-#projects_ct{
-    background: #257358; 
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-#project_row_info{
-    justify-content:center;
-    overflow: hidden;
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-image: url('https://raw.githubusercontent.com/luisjosemirandag/pridefornerds/master/images/1280px-Gay_Pride_Flag.png');
+  background-repeat: repeat;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
 }
-#img_prj{
-    width: 75%;
-    height: 100%;
-    background:azure;
-    border:azure;
-    overflow: hidden;
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
 }
-#link_prj{
-    justify-content:center;
-    text-align: center;
-    overflow: hidden;
+#marriage_eq_ct{
+  background-color: #140536;
 }
-#img_prj:hover{
-    -webkit-filter: blur(2px);
-    filter: blur(2px);
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: rgb(12, 11, 11);
+  border: 4px solid rgb(255, 255, 255);
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
 }
-#cursos_ct{
-    background-color: #4d9b72;
+/* Place the container to the left */
+.left {
+  left: -25.3%;
 }
-#credential{
-    color: #072917;
-    text-decoration: underline;
-    font-weight: 100;
+
+/* Place the container to the right */
+.right {
+  left: 25.3%;
 }
-#credential:hover{
-    color: #9febc2;
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
 }
-.credentials_toggle{
-    font-weight: bold;
-    border: transparent;
-    background-color: transparent;
-    font-size: 120%;
-    text-decoration: underline;
-    color: #072917;
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid rgb(255, 255, 255);
+  border-width: 10px 10px 10px 0;
+  border-color: transparent rgb(255, 255, 255) transparent transparent;
 }
-.credentials_toggle:hover{
-    color: #9febc2;
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
 }
-#idiomas_ct{
-    background: #27af67;   
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 6px;
+  border-width: 10px;
+}
+h2{
+  font-family: 'Staatliches', cursive;
+}
+
+svg {
+  position: relative;
+  background: transparent;
+  width: 960px;
+  height: 520px;
+}
+.countries {
+  stroke: rgb(0, 0, 0);
+}
+.sphere{
+  fill: #55CDFC;
+}
+#map {
+  width: 84%;
+  height: 100%;
+  margin-left: 8%;
+}
+#mapContainer {
+  position: relative;
+  background-color: #140536;
+  border: 0cm;
+}
+#marriage_bt{
+  background-color: #f54355;
+  border: transparent;
+  font-family: 'Staatliches', cursive;
+  font-size: 180%;
+  color: azure;
+  -webkit-text-stroke: 1px black; /* width and color */
+}
+#gender_bt{
+  background-color: #faaf4d;
+  border: transparent;
+  font-family: 'Staatliches', cursive;
+  font-size: 180%;
+  color: azure;
+  -webkit-text-stroke: 1px black; /* width and color */
 }
 
 /* To define in cellphones */
 @media only screen and (max-width: 500px) {
+  body{
+    width: 95%;
+    margin-left: 3%;
+  }
+  /* Title of the page and the animation */
+  .title {
+    text-align: center;
+    font-size: 350%;
+    font-weight: 500;
+  }
+  
+  /* Title of the Timeline */
+  #mg_timeline{
+    font-size: 180%;
+  }
+  
+  /* Container around content */
+  .container {
+    padding: 20px 15px;
+  }
+  
+  /* The circles on the timeline */
+  .container.left::after {
+    right: -40px;
+  }
+  .container.right::after {
+    left: -38px;
+  }
+  /* Place the container to the left */
+  .left {
+    left: -33%;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    left: 33%;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    right: 6px;
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    left: 6px;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 30px 10px;
+  }
+ 
+  #marriage_bt{
+    font-size: 120%;
+  }
+}
+@media only screen and (max-width: 400px) {
 
-    #container_all{
-        width: 100%;
-    }
-    #linkedinph{
-        width: 10%;
-        height: 10%;
-        margin-top: -10%;
-        margin-left: -10%;
-    }
-    .col-sm-4{
-        width: 40%;
-    }
-    #photo_me{
-        margin-top: 30%;
-        margin-left: -5%;
-    }
-    .col-sm-8{
-        width: 60%;
-    }
-    #my_name{
-        font-size: 300%;
-    }
-    .my_info{
-        font-size: 100%;
-        margin-left: -10%;
-    }
-    .text_title{
-        font-size: 100%;
-        margin-left: 2%;
-    }
-    #about_me_text{
-        font-size: 80%;
-        margin-left: 2%;
-        margin-right: 3%;
-    }
-    #bullet_text{
-        font-size: 80%;
-        margin-left: 0%;
-    }
-    #bullet_text_wk{
-        font-size: 80%;
-        margin-left: 0%;
-        margin-right: 10%;
-    }
-    #rocket{
-        list-style: url('https://raw.githubusercontent.com/luisjosemirandag/resume/master/images/rocket_png_10.png');
-        margin-left: -5%;
-    }
-    #ufo{
-        list-style: url('https://raw.githubusercontent.com/luisjosemirandag/resume/master/images/ufo_10.png');
-        margin-left: -5%;
-    }
-    #bullet{
-        margin-right: 5%;
-        margin-left: 2%;
-    }
-    #bullet_text_inc_de{
-        font-size: 60%;
-    }
-    #bullet_text_inc_tpa{
-        font-size: 60%;
-    }
-    #alien{
-        list-style: url("https://raw.githubusercontent.com/luisjosemirandag/resume/master/images/rocket_png_5.png");
-        margin-left: -10%;
-        margin-top: -2%;
-        margin-right: 2%;
-    }
-    #saturn{
-        list-style: url("https://raw.githubusercontent.com/luisjosemirandag/resume/master/images/saturn_10.png");
-    }
-    .skills_toggle{
-        display:inline-block;
-        padding:0.5% 1%;
-        margin-left: 2%;
-        margin-right: -10%;
-        border-radius:2em;
-        font-size: 60%;
-        font-weight:300;
-    }
-    #tecnologies_text{
-        font-size: 70%;
-        margin-left: 2%;
-        margin-top: -2.5%;
-        margin-bottom: 1.5%;
-        margin-right: 0%;
-    }
-    #img_prj{
-        width: 75%;
-        height: 100%;
-        overflow: hidden;
-    }
-    #cursos_text{
-        font-size: 70%;
-        margin-right: 5%;
-        margin-top: -1%;
-        margin-bottom: 1%;
-    }
-    #credential{
-        font-weight: 100;
-    }
-    .credentials_toggle{
-        font-size: 70%;
-        margin-left: -8%;
-    }
-    #idiomas_text{
-        font-size: 70%;
-        margin-right: 5%;
-        margin-top: -1%;
-        margin-bottom: 1%;
-    }
-    @media only screen and (max-width: 380px) {
-        #photo_me{
-            margin-top: 30%;
-        }
-        .my_info{
-            font-size: 93%;
-            margin-left: -10%;
-        }
-        @media only screen and (max-width: 365px) {
-            #photo_me{
-                margin-top: 35%;
-            }
-            .my_info{
-                font-size: 86%;
-                margin-left: -10%;
-            }
-        }
-        @media only screen and (max-width: 325px) {
-            #my_name{
-                font-size: 260%;
-            }
-            #photo_me{
-                margin-top: 45%;
-            }
-            .my_info{
-                font-size: 75%;
-                margin-left: -10%;
-            }
-            #bullet_text{
-                font-size: 80%;
-                margin-left: 0%;
-                margin-right: 10%;
-            }
-        }
-    }
+  /* Title of the page and the animation */
+  body{
+    width: 95%;
+    margin-left: 3%;
+  }
+  .title {
+    font-size: 320%;
+  }
+  
+  /* Title of the Timeline */
+  #mg_timeline{
+    font-size: 150%;
+  }
+  
+  /* Container around content */
+  .container {
+    padding: 20px 15px;
+  }
+  
+  /* The circles on the timeline */
+  .container.left::after {
+    right: -40px;
+  }
+  .container.right::after {
+    left: -38px;
+  }
+  /* Place the container to the left */
+  .left {
+    left: -33%;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    left: 33%;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    right: 6px;
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    left: 6px;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 30px 10px;
+  }
+ 
+  #marriage_bt{
+    font-size: 120%;
+  }
 }
