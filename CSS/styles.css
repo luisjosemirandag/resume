@@ -30,6 +30,19 @@ body{
     width: 7.5%;
     height: 15%;
 }
+#linkedinph:hover{
+    transform: scale(1.2);
+}
+#flag{
+    width: 7.5%;
+    height: 15%;
+    margin-left: 1%;
+    
+}
+#flag:hover{
+    transform: scale(1.2);
+}
+
 #about_me{
     background: #252c73;
 }
