@@ -320,18 +320,17 @@ body{
     
     #linkedinph{
         width: 7.5%;
-        height: 12%;
-        margin-top: -12%;
-        margin-left: -10%;
+        height: 15%;
+        margin-top: -20%;
     }
     #linkedinph:hover{
         transform: scale(1.2);
     }
     #flag{
         width: 7.5%;
-        height: 12%;
-        margin-top: -12%;
-        margin-left: 1%;  
+        height: 15%;
+        margin-left: 1%;
+        
     }
     #flag:hover{
         transform: scale(1.2);
