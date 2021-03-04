@@ -6,14 +6,14 @@ body{
     overflow: hidden;
 }
 #row_name{
-    background: #0b361f;
+    background: #0b1536;
     justify-content:center;
 }
 .my_info_lkin:hover{
-    color: #17422b;
+    color: #171c42;
 }
 #row_pic_desc{
-    background: #15663b;
+    background: #152866;
 }
 #my_name{
     font-family: 'Satisfy';
@@ -31,7 +31,7 @@ body{
     height: 15%;
 }
 #about_me{
-    background: #257358;
+    background: #252c73;
 }
 .text_title{
     font-family: 'Graduate';
@@ -48,7 +48,7 @@ body{
     margin-right: 5%;
 }
 #studies{
-    background-color: #4d9b72;
+    background-color: #4d5f9b;
 }
 
 #bullet_text{
@@ -110,19 +110,19 @@ body{
     font-size: 75%;
     font-weight:300;
     color:#FFFFFF;
-    background-color:#4d9b72;
+    background-color:#4d569b;
     text-align:center;
     transition: all 0.2s;
     border:transparent;
 }
 .skills_toggle:hover{
-    background-color:#3a7254;
+    background-color:#3a4172;
 }
 #experience{
-    background: #27af67;
+    background: #2727af;
 }
 #technologies{
-    background: #15663b;
+    background: #151c66;
 }
 #saturn{
     margin-left: 2%;
@@ -148,7 +148,7 @@ body{
     margin-bottom: 1%;
 }
 #projects_ct{
-    background: #257358; 
+    background: #253773; 
 }
 #project_row_info{
     justify-content:center;
@@ -171,15 +171,15 @@ body{
     filter: blur(2px);
 }
 #cursos_ct{
-    background-color: #4d9b72;
+    background-color: #4d5f9b;
 }
 #credential{
-    color: #072917;
+    color: #090729;
     text-decoration: underline;
     font-weight: 100;
 }
 #credential:hover{
-    color: #9febc2;
+    color: #a39feb;
 }
 .credentials_toggle{
     font-weight: bold;
@@ -187,13 +187,13 @@ body{
     background-color: transparent;
     font-size: 120%;
     text-decoration: underline;
-    color: #072917;
+    color: #090729;
 }
 .credentials_toggle:hover{
-    color: #9febc2;
+    color: #9fa2eb;
 }
 #idiomas_ct{
-    background: #27af67;   
+    background: #2747af;   
 }
 
 /* To define in cellphones */
