@@ -1,22 +1,22 @@
 body{
-    background-color: black;
+    background-color: #ffffff;
 }
 #container_all{
     width: 85%;
     overflow: hidden;
 }
 #row_name{
-    background: #0b1536;
+    background: #ffffff;
     justify-content:center;
 }
 .my_info_lkin:hover{
     color: #171c42;
 }
 #row_pic_desc{
-    background: #152866;
+    background: #2E7D2A;
 }
 #my_name{
-    font-family: 'Satisfy';
+    font-family: 'Times New Roman', Times, serif;
     font-size: 400%;
     color:azure;
 }
@@ -44,17 +44,17 @@ body{
 }
 
 #about_me{
-    background: #252c73;
+    background: #ffffff;
 }
 .text_title{
     font-family: 'Graduate';
-    color: azure;
+    color: #000000;
     font-size: 180%;
     margin-left: 2%;
 }
 #about_me_text{
     font-family: 'Mukta';
-    color: azure;
+    color: #000000;
     font-size: 150%;
     margin-left: 2%;
     text-align: justify;
@@ -66,21 +66,21 @@ body{
 
 #bullet_text{
     font-family: 'Mukta';
-    color: azure;
+    color: #000000;
     font-size: 140%;
     text-align: left;
     margin-left: 1%;
 }
 #cursos_text{
     font-family: 'Mukta';
-    color: azure;
+    color: #000000;
     font-size: 140%;
     text-align: left;
     margin-left: 1%;
 }
 #bullet_text_wk{
     font-family: 'Mukta';
-    color: azure;
+    color: #000000;
     font-size: 140%;
     text-align: left;
     margin-left: 1%;
@@ -95,7 +95,7 @@ body{
 }
 #bullet_text_inc_de{
     font-family: 'Mukta';
-    color: azure;
+    color: #000000;
     font-size: 110%;
     text-align: left;
     margin-top: -1%;
@@ -104,7 +104,7 @@ body{
 }
 #bullet_text_inc_tpa{
     font-family: 'Mukta';
-    color: azure;
+    color: #000000;
     font-size: 110%;
     text-align: left;
     margin-top: -1%;
@@ -122,27 +122,27 @@ body{
     font-family:'Roboto',sans-serif;
     font-size: 75%;
     font-weight:300;
-    color:#FFFFFF;
-    background-color:#4d569b;
+    color:#000000;
+    background-color:#4d9b6f;
     text-align:center;
     transition: all 0.2s;
     border:transparent;
 }
 .skills_toggle:hover{
-    background-color:#3a4172;
+    background-color:#117939;
 }
 #experience{
-    background: #2727af;
+    background: #ffffff;
 }
 #technologies{
-    background: #151c66;
+    background: #ffffff;
 }
 #saturn{
     margin-left: 2%;
 }
 #tecnologies_text{
     font-family: 'Mukta';
-    color: azure;
+    color: #000000;
     font-size: 120%;
     margin-left: 1%;
     text-align: left;
@@ -152,7 +152,7 @@ body{
 }
 #idiomas_text{
     font-family: 'Mukta';
-    color: azure;
+    color: #000000;
     font-size: 140%;
     margin-left: 1%;
     text-align: left;
@@ -161,7 +161,7 @@ body{
     margin-bottom: 1%;
 }
 #projects_ct{
-    background: #253773; 
+    background: #ffffff; 
 }
 #project_row_info{
     justify-content:center;
@@ -171,7 +171,7 @@ body{
     width: 75%;
     height: 100%;
     background:azure;
-    border:azure;
+    border:#000000;
     overflow: hidden;
 }
 #link_prj{
@@ -184,15 +184,15 @@ body{
     filter: blur(2px);
 }
 #cursos_ct{
-    background-color: #4d5f9b;
+    background-color: #ffffff;
 }
 #credential{
-    color: #090729;
+    color: #ffffff;
     text-decoration: underline;
     font-weight: 100;
 }
 #credential:hover{
-    color: #a39feb;
+    color: #000000;
 }
 .credentials_toggle{
     font-weight: bold;
@@ -200,13 +200,13 @@ body{
     background-color: transparent;
     font-size: 120%;
     text-decoration: underline;
-    color: #090729;
+    color: #000000;
 }
 .credentials_toggle:hover{
-    color: #9fa2eb;
+    color: #000000;
 }
 #idiomas_ct{
-    background: #2747af;   
+    background: #ffffff;   
 }
 
 /* To define in cellphones */
