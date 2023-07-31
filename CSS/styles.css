@@ -13,7 +13,7 @@ body{
     color: #171c42;
 }
 #row_pic_desc{
-    background: #2E7D2A;
+    background: #2e7d2a93;
 }
 #my_name{
     font-family: 'Times New Roman', Times, serif;
@@ -22,7 +22,7 @@ body{
 }
 .my_info{
     font-family: 'Rubik';
-    color: azure;
+    color: #000000;
     font-size: 180%;
     margin-top: 3%;
 }
@@ -61,7 +61,7 @@ body{
     margin-right: 5%;
 }
 #studies{
-    background-color: #4d5f9b;
+    background-color: #ffffff;
 }
 
 #bullet_text{
@@ -84,14 +84,6 @@ body{
     font-size: 140%;
     text-align: left;
     margin-left: 1%;
-}
-#rocket{
-    margin-right: -5%;
-    margin-left: 2%;
-}
-#ufo{
-    margin-right: -5%;
-    margin-left: 2%;
 }
 #bullet_text_inc_de{
     font-family: 'Rubik';
@@ -133,22 +125,6 @@ body{
 }
 #experience{
     background: #ffffff;
-}
-#technologies{
-    background: #ffffff;
-}
-#saturn{
-    margin-left: 2%;
-}
-#tecnologies_text{
-    font-family: 'Rubik';
-    color: #000000;
-    font-size: 120%;
-    margin-left: 1%;
-    text-align: left;
-    margin-right: -5%;
-    margin-top: -1%;
-    margin-bottom: 1%;
 }
 #idiomas_text{
     font-family: 'Rubik';
@@ -250,14 +226,6 @@ body{
         margin-left: 0%;
         margin-right: 10%;
     }
-    #rocket{
-        list-style: url('https://raw.githubusercontent.com/luisjosemirandag/resume/master/images/rocket_png_10.png');
-        margin-left: -5%;
-    }
-    #ufo{
-        list-style: url('https://raw.githubusercontent.com/luisjosemirandag/resume/master/images/ufo_10.png');
-        margin-left: -5%;
-    }
     #bullet{
         margin-right: 5%;
         margin-left: 2%;
@@ -268,15 +236,6 @@ body{
     #bullet_text_inc_tpa{
         font-size: 60%;
     }
-    #alien{
-        list-style: url("https://raw.githubusercontent.com/luisjosemirandag/resume/master/images/rocket_png_5.png");
-        margin-left: -10%;
-        margin-top: -2%;
-        margin-right: 2%;
-    }
-    #saturn{
-        list-style: url("https://raw.githubusercontent.com/luisjosemirandag/resume/master/images/saturn_10.png");
-    }
     .skills_toggle{
         display:inline-block;
         padding:0.5% 1%;
@@ -285,13 +244,6 @@ body{
         border-radius:2em;
         font-size: 60%;
         font-weight:300;
-    }
-    #tecnologies_text{
-        font-size: 70%;
-        margin-left: 2%;
-        margin-top: -2.5%;
-        margin-bottom: 1.5%;
-        margin-right: 0%;
     }
     #img_prj{
         width: 75%;
