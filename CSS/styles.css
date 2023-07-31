@@ -115,13 +115,13 @@ body{
     font-size: 75%;
     font-weight:300;
     color:#000000;
-    background-color:#4d9b6f;
+    background-color:#2e7d2a93;
     text-align:center;
     transition: all 0.2s;
     border:transparent;
 }
 .skills_toggle:hover{
-    background-color:#117939;
+    background-color:#2e7d2aa9;
 }
 #experience{
     background: #ffffff;
